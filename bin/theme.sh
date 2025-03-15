@@ -7016,6 +7016,27 @@ foreground: #444444
 background: #eeeeee
 cursor: #444444
 
+papercolor-tuned
+0: #ededed
+1: #d7005f
+2: #008700
+3: #d75f00
+4: #4271ae
+5: #8959a8
+6: #337d82
+7: #4d4d4c
+8: #363636
+9: #d7005f
+10: #718c00
+11: #d75f00
+12: #4271ae
+13: #8959a8
+14: #3e999f
+15: #5d5d5d
+foreground: #444444
+background: #ffffff
+cursor: #4d4d4c
+
 paraiso
 0: #2f1e2e
 1: #ef6155
