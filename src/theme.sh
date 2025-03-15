@@ -364,7 +364,11 @@ print_current_theme() {
 				g=substr(a[i], RSTART+9, 2)
 				b=substr(a[i], RSTART+14, 2)
 
-				printf "%s: %s\n", names[key], "#"r g b
+				if (names[key] ~ /^[0-9]+$/) {
+					printf "color%s %s\n", names[key], "#"r g b
+				} else {
+					printf "%s %s\n", names[key], "#"r g b
+				}
 			}
 		}
 	}
